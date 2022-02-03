@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MythicalHatcher/loader/main/Loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eksoontop/loader/main/Loader.lua"))()

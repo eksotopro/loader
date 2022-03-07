@@ -14,3 +14,6 @@ getgenv().AltIDS = {
     2851413065, --@StxpidBartek or 936667657934077952
 }
 loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/premium.lua'))()
+--[[ CREDITS FOR CARL#5555 !
+ALSO WHY UR HERE SKID ASS GO AWAY RETARDED KID
+]]--

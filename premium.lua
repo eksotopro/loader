@@ -1,3 +1,7 @@
+--[[// This is premium whitelist file, feel free to leak it.
+    http://hoodsense.cf/discord
+]]--
+
 getgenv().Prefix = ":"
 getgenv().MainID = {
 	2492984718, --owner

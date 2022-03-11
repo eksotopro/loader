@@ -6,8 +6,8 @@ getgenv().Prefix = ":"
 getgenv().MainID = {
 	2492984718, --owner
 	3215415009, --ztmave
-	2452452863 --nigga
-	1752466810, --olifka
+	2452452863, --nigga
+	1752466810 --olifka
 }
 getgenv().AltIDS = {
     326711113, --test account dont remove

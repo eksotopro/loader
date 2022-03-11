@@ -17,7 +17,8 @@ getgenv().AltIDS = {
     2244576018, --@ZaCzArOwAnA_JeStEm or ?
     3240077164, --@eksoziemnlak or ?
     2851413065, --@StxpidBartek or 936667657934077952
-    2800931105 --@HappiMarry or 483309930070147072
+    2800931105, --@HappiMarry or 483309930070147072
+    1458122135 --@Azx_KOMAR or 671333252107075624
 }
 loadstring(game:HttpGet('https://raw.githubusercontent.com/eksotopro/holders/main/premium.lua'))()
 --[[ CREDITS FOR CARL#5555 !

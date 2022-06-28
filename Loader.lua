@@ -1,9 +1,3 @@
-while true do
-if game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment then
-    game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
-end
-wait(3)
-end
 pcall(function()
   if not game.Players.LocalPlayer:IsInGroup(14447451) then
     coroutine.resume(coroutine.create(function()

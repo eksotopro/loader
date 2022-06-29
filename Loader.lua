@@ -7,15 +7,15 @@ pcall(function()
   if not game.Players.LocalPlayer:IsInGroup(14447451) then
     coroutine.resume(coroutine.create(function()
        wait()
-	       local NotInGroup = Instance.new("Sound")
-    		NotInGroup.Name = "NIGGER"
-    		NotInGroup.SoundId = "http://www.roblox.com/asset/?id=5788217739"
-    		NotInGroup.Volume = 0.5
-    		NotInGroup.Looped = false
-    		NotInGroup.archivable = false
-    		NotInGroup.Parent = game.Workspace
-    		NotInGroup:Play()
-		wait()
+	local NotInGroup = Instance.new("Sound")
+    	NotInGroup.Name = "NIGGER"
+    	NotInGroup.SoundId = "http://www.roblox.com/asset/?id=5788217739"
+    	NotInGroup.Volume = 0.5
+    	NotInGroup.Looped = false
+    	NotInGroup.archivable = false
+    	NotInGroup.Parent = game.Workspace
+    	NotInGroup:Play()
+	wait()
        game.StarterGui:SetCore("SendNotification", {
         Title = 'Not in group!';
         Text = 'Script will work! \n Copied group link to clipboard!';
@@ -25,6 +25,11 @@ pcall(function()
     end))
   end
 end)
+game.StarterGui:SetCore("SendNotification", {
+		Title = 'Free Exploits...';
+        	Text = 'Script may not work on free executors! \n We are trying to fix this, stay on update!';
+        	Duration = 20;
+       		})
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/AntiCheatBypass.lua'))()
 -- Credits to stefanuk12 for ac bypass!
 -- This file was generated using Luraph Obfuscator v13.4.6

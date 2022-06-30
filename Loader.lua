@@ -26,8 +26,8 @@ pcall(function()
   end
 end)
 game.StarterGui:SetCore("SendNotification", {
-		Title = 'Free Exploits...';
-        	Text = 'Script may not work on free executors! \n We are trying to fix this, stay on update!';
+		Title = 'UPDATED';
+        	Text = 'Script now works on all executors! \n We fixed the error!';
         	Duration = 20;
        		})
 -- This file was generated using Luraph Obfuscator v13.4.6

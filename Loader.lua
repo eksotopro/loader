@@ -1,7 +1,6 @@
-game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
-game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
-game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
-print("[!] Removed Part!")
+game.Players.LocalPlayer.CharacterAdded:connect(function()
+    wait(3)
+    game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
 end)
 pcall(function()
   if not game.Players.LocalPlayer:IsInGroup(14447451) then

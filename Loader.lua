@@ -1,3 +1,9 @@
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'Info';
+        Text = 'Scripts are temporarily not working! \n Join our discord for more info!';
+        Duration = 10;
+	Button1 = "discord.gg/zp"
+       })
 game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
 game.Players.LocalPlayer.CharacterAdded:connect(function()
     wait(3)

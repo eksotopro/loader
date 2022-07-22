@@ -1,6 +1,6 @@
        game.StarterGui:SetCore("SendNotification", {
         Title = 'Info';
-        Text = 'Scripts are temporarily not working! \n Join our discord for more info!';
+        Text = 'Scripts are temporarily not working! \n Nixware is up again!';
         Duration = 10;
 	Button1 = "discord.gg/zp"
        })

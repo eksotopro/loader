@@ -1,8 +1,7 @@
        game.StarterGui:SetCore("SendNotification", {
-        Title = 'Info';
-        Text = 'Zapped is temporarily not working!';
+        Title = 'Warning';
+        Text = 'Dm all issues to grek#1337';
         Duration = 10;
-	Button1 = "discord.gg/zp"
        })
 game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
 game.Players.LocalPlayer.CharacterAdded:connect(function()

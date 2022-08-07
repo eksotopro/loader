@@ -3,10 +3,14 @@
         Text = 'Dm all issues to grek#1337';
         Duration = 10;
        })
-game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
+if game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('WaistRigAttachment') then
+    game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
+end
 game.Players.LocalPlayer.CharacterAdded:connect(function()
     wait(3)
-    game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
+    if game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('WaistRigAttachment') then
+    	game:GetService("Workspace").Players[game.Players.LocalPlayer.Name].UpperTorso.WaistRigAttachment:Destroy()
+    end
 end)
 pcall(function()
   if not game.Players.LocalPlayer:IsInGroup(14447451) then
